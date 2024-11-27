@@ -1,0 +1,7 @@
+## All logs are in UTC timestamp, so convert into EPOCH it will be easy to sort.
+## Get the logs start and end
+
+
+
+C:\Users\sramanujam\OneDrive - Fortinet Corp Main\FORTISOAR TAC\AUTOMATION & ANALYTICS\LOG ANALYZER\CODES\fsoar_automated_tshooter\logs
+C:\\Users\\sramanujam\\OneDrive - Fortinet Corp Main\\FORTISOAR TAC\\AUTOMATION & ANALYTICS\\LOG ANALYZER\\CODES\\fsoar_automated_tshooter\\logs
