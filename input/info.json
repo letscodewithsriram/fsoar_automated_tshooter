@@ -1,0 +1,9 @@
+{
+  "forticare": "",
+  "askenggtemplate": "yes",
+  "usecases": {
+    "uc1": "ssl_cyops_api_error~fastcgi request record is too big~'https://teams.microsoft.com/l/message/19:5179d17af0be43bd9cbec98c0fb4880b@thread.tacv2/1708738109089?tenantId=2c36c478-3d00-452f-8535-48396f5f01f0&groupId=bdd93120-74dd-449d-951f-d120e23adca0&parentMessageId=1708738109089&teamName=FortiSOAR%20-%20SME&channelName=Ask%20Engineering&createdTime=1708738109089",
+    "uc2": "ssl_cyops_api_error~ PHP Fatal error:  Allowed memory size of~ Increase Memory",
+    "uc3": "ssl_cyops_api_error~SSL routines::unexpected eof while reading~Ignore"
+  }
+}

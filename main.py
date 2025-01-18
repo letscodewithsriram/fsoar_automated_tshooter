@@ -1,9 +1,3 @@
-# This is a sample Python script.
-
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-
-Hello World! Test
 
 def print_hi(name):
     # Use a breakpoint in the code line below to debug your script.
@@ -36,9 +30,12 @@ if __name__ == '__main__':
 
     configs['logger_info'] = logging
 
-    from log_parser import extracter, env_reset, parse_prod_logs
+    with open('findings/output.txt', 'w') as findingsfh:
+        findingsfh.write('')
+
+    from modules import extracter, env_reset, parse_prod_logs, parse_cyops_api_ssl_errors_logs, generate_summary
     # extracter.unzip_the_tarfile(configs)
     parse_prod_logs.prod_parser(configs, dbs_dict)
+    parse_cyops_api_ssl_errors_logs.cyops_api_ssl_error(configs, dbs_dict)
+    generate_summary.create_workbook()
     # env_reset.clear_logs(configs)
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
